@@ -1,0 +1,30 @@
+<h2>Member Details</h2>
+
+<table *ngIf="person" id="personDetails">
+  <tbody>
+  <tr>
+    <td>Name :</td>
+    <td>{{person.name}}</td>
+  </tr>
+    <tr>
+      <td>Phone: </td>
+      <td>{{person.phone}}</td>
+    </tr>
+    <tr>
+      <td>Street: </td>
+      <td>{{person.address.street}}</td>
+    </tr>
+    <tr>
+      <td>City: </td>
+      <td>{{person.address.city}}</td>
+    </tr>
+    <tr>
+      <td>State: </td>
+      <td>{{person.address.state}}</td>
+    </tr>
+    <tr>
+      <td>Zip: </td>
+      <td>{{person.address.zip}}</td>
+  </tr>
+  </tbody>
+</table>
