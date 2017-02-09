@@ -5,7 +5,7 @@ import { DebugElement } from '@angular/core';
 
 import { AppComponent } from '../../app/app.component';
 import { NavbarComponent } from '../../app/nav/navbar.component';
-import { Router } from '@angular/router';
+import { RouterOutlet } from '@angular/router';
 import { RouterOutletStubComponent, RouterLinkStubDirective } from './stub/router-stubs.js';
 
 describe('AppComponent test suite', function () {

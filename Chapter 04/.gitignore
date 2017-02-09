@@ -1,14 +1,11 @@
 .idea
-.DS_Store
 node_modules
 jspm_packages
 npm-debug.*
 link-checker-results.txt
 app/**/*.js
 *.js.map
-spec/e2e/**/*.js
-spec/e2e/**/*.js.map
-spec/unit/**/*.js
-spec/unit/**/*.js.map
+e2e/**/*.js
+e2e/**/*.js.map
 _test-output
 _temp

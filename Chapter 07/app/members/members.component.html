@@ -1,0 +1,21 @@
+<h2>Members</h2>
+
+<form>
+  <input type="search" [(ngModel)]="query" name="query" (keyup.enter)="search()">
+  <button type="button" (click)="search()">Search</button>
+</form>
+
+<table *ngIf="memberList" id="searchList">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Phone</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let member of memberList; let i=index">
+    <td><a href="javascript:void(0)" (click)="viewDetails(member.id)">{{member.name}}</a></td>
+    <td>{{member.phone}}</td>
+  </tr>
+  </tbody>
+</table>

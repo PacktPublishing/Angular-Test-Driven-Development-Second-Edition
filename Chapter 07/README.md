@@ -1,4 +1,4 @@
-# Angular TDD Chapter8 Source
+# Angular TDD Chapter7 Source
 
 This repository exists primarily to get you started quickly with learning and prototyping in Angular. It's been extended with testing support so you can start writing tests immediately.
 
@@ -19,7 +19,7 @@ We recommend [nvm](https://github.com/creationix/nvm) for managing multiple vers
 
 Clone this repo into new project folder (e.g., `my-proj`).
 ```bash
-git clone  https://github.com/jquerygeek/angular-TDD-chapter-8 my-proj
+git clone  https://github.com/jquerygeek/angular-TDD-chapter-7 my-proj
 cd my-proj
 ```
 
@@ -94,7 +94,7 @@ We recommend that you shut down one before starting another.*
 ### Unit Tests
 TypeScript unit-tests are usually in the `app` folder. Their filenames must end in `.spec`.
 
-Look for the example `spc/unit/app.component.spec.ts`.
+Look for the example `spec/unit/app.component.spec.ts`.
 Add more `.spec.ts` files as you wish; we configured karma to find them.
 
 Run it with `npm test`
